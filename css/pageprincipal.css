@@ -41,7 +41,7 @@ header{
     height: 35px;}
 
     .bg-verdec {
-        background-color: #c6fdc0 !important;}
+        background-color: blueviolet !important;}
 
         .logo{width: 600px;
             height: 200px;}
@@ -53,9 +53,14 @@ header{
 
   
 
+<<<<<<< HEAD
           aside{background-color: blue;
           width: 25%;
         height: 800px;}
+=======
+          aside{background-color: greenyellow;
+          width: 25%;}
+>>>>>>> 0d0b160491ae78d8cbabf5c776ea9a1795db296c
 
       #prod{background-color: chocolate;
         width: 75%;
