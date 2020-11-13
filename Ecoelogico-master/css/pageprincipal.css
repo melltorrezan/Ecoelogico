@@ -1,7 +1,6 @@
 /* seletor universal - reset */
-*{margin: 0;
-  padding: 0;
-  box-sizing: border-box;}
+*{margin: 0;  padding: 0;  box-sizing: border-box;}
+
 /* bg-cores */
 .bg-verdec {
   background-color: #C6fdc2!important;
@@ -11,13 +10,42 @@
 }
 
  /* main-container */
-main{
+body{
   width: 100%;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   flex-flow: row wrap;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
+/*  
+@media (min-width: 576px) {
+  .container1{
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container1{
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container1{
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container1{
+    max-width: 1300px
+  }
+}
+*/ 
 /* inicio da page */
 header{
   width: 100%;
