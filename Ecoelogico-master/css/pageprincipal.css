@@ -39,7 +39,7 @@ header{
 /*--------------------BOTÃO DE PESQUISA--------------------*/
 .btn-lupa {
   display: inline-block;
-  color: #212529;
+  color: #43e831;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -53,16 +53,26 @@ header{
   border-radius: 8px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+.btn-perfil {
+  display: inline-block;
+  color: #43e831;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 0.37rem 0.7rem;
+  font-size: 1em;
+  line-height: 1.5;
+  }
 
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;}
 }
 
-.btn:hover {
-  color: #212529;
-  text-decoration: none;
-}
+
 
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
