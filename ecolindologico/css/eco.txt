@@ -1,0 +1,49 @@
+<div class="card tam-card">
+              <img src="..." class=" img-card card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">TÍTULO</h5>
+                <p class="card-text">TEXTO</p>
+                <a class="btn-carrinho">
+                  <svg  width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/></svg>
+                </a>
+              </div>
+            </div>
+====================================================================================
+
+        <img src="paginas/brinquedos/brinquedo7.jpg" class="card-img-top" alt="Jogo Cara Maluca">
+        <div class="card-body">
+          <h5 class="card-title">Jogo Cara Maluca</h5>
+          <h6>R$ 22,00</h6>
+          <p class="card-text">Acompanhado de 12 peças.
+            Feito de papelão e papel kraft.</p>
+
+================================================================================
+
+        <img src="paginas/casa-e-cozinha/canudos/canudo-4.jpg" class="card-img-top" alt="Canudo Sustentável">
+        <div class="card-body">
+          <h5 class="card-title">Canudo Sustentável</h5>
+          <h6>R$ 14,63</h6>
+          <p class="card-text">Canudo de vidro sustentável.
+            Acompanhado de capinha com botões adaptáveis.</p>
+
+================================================================================
+
+        <img src="paginas/cuidado-pessoal/eco-pads-discos-de-algodo-felpudo-D_NQ_NP_680979-MLB43756818274_102020-W.webp" class="card-img-top" alt="Kit Ecopad 100% algodão">
+          <h5 class="card-title">Kit Ecopads 100% Algodão</h5>
+          <h6>R$ 14,99</h6>
+          <p class="card-text">Medindo 8 cm de diâmetro.
+            Feito a mão com linha 100% algodão. Lavável e reutilizável.
+            Seguindo as instruções de conservação as Ecopads de crochê podem ser utilizadas por muitos anos:
+            - Após o uso, lavar com sabão neutro, não usar alvejante, não levar a máquina.
+            - Colocar para secar, não utilizar secadora.
+            - Não lavar a seco.</p>
+==============================================================================
+
+      <div class="card col tamanho-card img-card">
+        <img src="paginas/cuidado-pessoal/prod-hp3.webp" class="card-img-top" alt="Kit Pessoal">
+          <h5 class="card-title">Kit Higiene Pessoal</h5>
+          <h6>R$ 37,50</h6>
+          <p class="card-text">Produtos orgânicos para a higiene pessoal.
+            Acompanha escova de dentes, bucha vegetal, desodorante natural e sabonetes orgânicos.</p>
+          

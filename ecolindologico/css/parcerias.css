@@ -1,0 +1,25 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+.div1-parcerias{
+    width: 80%;
+    margin: auto 0;
+    border: 3px;
+}
+.img-parceria{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+.sec-parceria{
+    width: 60%;
+    margin: 0 auto;
+    border: 5px #c6fdc2;
+    border-radius: 10px;
+    background-color: #A1EFE7;
+}
+.texto-parceria{
+    text-align: justify;
+    margin-top: 20px;
+
+}
