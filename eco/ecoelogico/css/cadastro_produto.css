@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.form-produto{
+    width: 100%;
+    padding-left: 33%;
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input{border: 2px solid #43BFA5;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: white;
+}
+
+#btn-cadastro{
+    margin-left: 10%;
+    width: 150px;
+    font-size: 17px;
+    background-color: #43e831;
+    border: 3px solid  #43BFA5;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+}
+
+#btn-cadastro:hover{
+    background-color:#43BFA5;
+    border: 3px solid   #43e831;
+    border-radius: 3px;
+}

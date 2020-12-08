@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - Eco é Lógico</title>
+    <link rel="stylesheet" href="css/pagamento.css">
+    <link rel="icon" href="icons/eco.store.logo.png">
+</head>
+
+<body >
+
+     <!---------------------------------------VLIBRAS-------------------------------------------------->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <!---------------------------------------FIM DO VLIBRAS------------------------------------------------>   
+
+   <main>
+    <a href="carrinho.html">
+      <svg width="50px" height="50px" viewBox="0 0 16 16" class="bi voltar bi-arrow-left-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+          <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+      </svg>
+  </a>
+    <div class="container">
+    <form method="post" action="" class="form-pagamento">
+    
+    <h3>Por favor, informe onde devemos entregar o seu produto:</h3>
+        <label for="">Rua:</label>
+        <input type="text" name="rua" required>
+        <label for="">Número:</label>
+        <input type="text" name="num" size="3" required>
+        <br><br>
+        <label for="">CEP:</label>
+        <input type="text" name="cep" size="8" required>
+        <label for="">Complemento:</label>
+        <input type="text" name="complemento" size="10" required>
+        <br><br>
+        <input type="checkbox" name="salvarenderco" checked>Quero salvar esse endereço para as próximas compras
+    <br>
+
+    <h3>Selecione uma forma de pagamento:</h3>
+    <div>
+    <select name="formapag">
+        <option value="0" selected disabled>-</option>
+        <br>
+        <option value="1">Cartão de crédito</option>
+        <option value="2">Cartão de Débito</option>
+        <option value="3">Boleto bancário</option>
+        <option value="4">Pix</option>
+        <option value="5">IBioCash</option>
+    </select>
+    </div>
+
+    <h3>Preencha os campos abaixo com os seus dados para finalizar a compra:</h3>
+    <label for="">Número do Cartão:</label>
+        <input type="text" name="numeroc" minlength="16" maxlength="16" required>
+        <br><br>
+        <label for="">Data de validade:</label>
+        <input type="text" name="validade" minlength="5" maxlength="5" size="7" required>
+        <br><br>
+        <label for="">Código de segurança:</label>
+        <input type="text" name="cod" maxlength="3" minlength="3" size="5" required>
+        <br><br>
+        <input type="checkbox" name="salvardados" checked>Quero salvar os dados para compras futuras
+        <br><br>
+        
+        <div style="width: 128px; margin: 0 auto;">
+        <input type="submit" id="btn-pagamento" value="Finalizar compra">
+        </div>
+
+  </form>
+   </div>
+    </main>
+
+</body>
+</html>

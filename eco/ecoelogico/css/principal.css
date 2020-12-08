@@ -1,0 +1,202 @@
+/*------------------ SELETOR UNIVERSAL - RESET---------------- */
+
+*{margin: 0;  padding: 0;  box-sizing: border-box;}
+
+/*----------------------------CORES----------------------------- */
+
+.bg-verdec {
+  background-color: #c6fdc2!important;}
+
+.bg-verdea{
+  background-color: #A1EFE7!important;}
+
+.bg-azulc{background-color: #e4fff2!important;}
+
+.let-verde{color: #43e831!important;
+  font-weight: 500;}
+
+ /*--------------------------BODY=CONTAINER------------------------- */
+
+body{
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-right: 0 !important;
+  margin-left: 0 !important;  
+}
+
+/*---------------------------------HEADER------------------------------*/
+header{
+  width: 100%;
+  height: 100px;
+  display:flex;
+}
+
+.eco-logo{
+  width: 250px;
+  height: 95px;
+  margin-right: 30px;
+}
+
+ul,li{
+  list-style: none;
+}
+
+
+.navbar-collapse{
+  z-index: 100;
+}
+/*------------------------------BOTÕES DO HEADER-------------------------*/
+
+#btnmenu{
+  background-color: #45e833;
+  border: 2px solid;
+}
+
+.btn-lupa {
+  display: inline-block;
+  color: #43e831;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-color: #43E831;
+  border: 2px solid;
+  padding: 0.37rem 0.7rem;
+  font-size: 1em;
+  line-height: 1.5;
+  border-radius: 8px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-lupa:hover {
+  color: #fff;
+  background-color: #43e831;
+  border-color: #43e831;
+}
+
+.btn-perfil {
+  display: inline-block;
+  color: #c6fdc2;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #43e831;
+  padding: 0.37rem 0.7rem;
+  font-size: 1em;
+  line-height: 1.5;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-top: 23px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.btn-perfil:hover{
+  color:#43e831;
+  background-color: transparent;
+  border-color: #43e831;
+  border: 2px solid;
+  border-radius: 8px;
+}
+
+/*----------------------------------MAIN-----------------------------*/
+
+main{
+  background-color:#e4fff2;
+  width: 100%;
+}
+
+.carousel{width:100%;}
+
+#sec1{
+  width: 100%;
+  height: 180px;
+  background-color: #8fdfcd;
+  padding-top: 35px;
+  justify-content: center;
+  display:flex
+}
+
+#sec1>img{
+  width:90%;
+  height: 110px;
+  margin: 0 auto ;
+}
+
+/*----------------------------MAIN-CARDS----------------------------*/
+
+#sec2{
+  width: 100%;
+  background-color: #e4fff2;
+}
+
+#artcard{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.img-card{
+  width: 200px;
+  height: 200px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 270px;
+  height: 300px;
+  align-items: center;
+  border: 4px solid #CAE1FF;
+  border-radius: 5px;
+  perspective: 1000px;
+  margin: 10px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+} 
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+  
+.flip-card-back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.btn-carrinho{
+  color: #43e831;
+  float: right;}
+
+.btn-carrinho:hover{
+  color: #8fdfcd;
+  float: right;
+}

@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('pagamento.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.voltar{
+    margin: 10px;
+    padding: 15px;
+    color: rgb(13, 135, 13);
+}
+.form-pagamento{
+    width: 680px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    background-color: #98FB98;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    border: 5px solid  #71aef0;
+}
+
+input{border: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+#btn-pagamento{
+    background-color: #71aef0;
+    border-radius: 5px;
+    border: 3px solid #1EA840;
+}
+#btn-pagamento:hover{
+    background-color: #1EA840;
+    border-radius: 5px;
+    border: 3px solid #71aef0;
+}
+

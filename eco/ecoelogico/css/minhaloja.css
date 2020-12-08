@@ -1,0 +1,30 @@
+*{margin:0 ;padding:0; box-sizing:border-box;}
+
+main{
+    padding: 30px;
+}
+
+table{
+    background-color: #A1EFE7;
+    border: 1px solid #4fcabe;
+    color: #050505;
+    font-size: 18px;
+}
+#btn-adicionar{
+    margin-left: 64%;
+    width: 300px;
+    font-size: 17px;
+    background-color: #43e831;
+    border: 3px solid  #43BFA5;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+th, td{
+  text-align: center;
+  padding: 5px;
+}
+table{
+  margin: 0 auto;
+}
